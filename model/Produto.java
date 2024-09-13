@@ -47,7 +47,11 @@ public class Produto {
         this.dataCadastro = dataCadastro;
     }
 
-    public void imprimir() {
-       
+    @Override
+    public String toString() {
+        return "DADOS DO PRODUTO \n" +
+                "Nome=" + nome + "\nPreço=" + preco + "\n"+
+                "Disponibilidade=" + disponibilidade + "\n" +
+                "Data de Cadastro=" + dataCadastro + "\n";
     }
 }
