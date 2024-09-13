@@ -3,10 +3,10 @@ package model;
 import java.time.LocalDate;
 
 public class Produto {
-    public String nome;
-    public float preco;
-    public Disponibilidade disponibilidade;
-    public LocalDate dataCadastro;
+    private String nome;
+    private float preco;
+    private Disponibilidade disponibilidade;
+    private LocalDate dataCadastro;
 
     public Produto(String nome, float preco, Disponibilidade disponibilidade, LocalDate dataCadastro) {
         this.nome = nome;
